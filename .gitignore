@@ -1,0 +1,13 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT License.
+
+# Build output
+/build/
+
+# Downloaded source archives. Kept outside /build so that '--clean' does not
+# throw away a 140 MB kernel tarball.
+/.cache/
+
+# Dependency checkouts that are not (yet) submodules
+/libs/*/
+/tessera/*/
